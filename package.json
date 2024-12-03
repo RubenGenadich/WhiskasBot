@@ -1,0 +1,20 @@
+{
+  "name": "telegrambot_parsingozon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "pars": "node parser.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-telegram-bot-api": "0.66.0",
+    "nodemon": "3.1.7",
+    "puppeteer": "23.9.0",
+    "selenium-webdriver": "4.27.0"
+  }
+}
